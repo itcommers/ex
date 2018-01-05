@@ -1,0 +1,24 @@
+html { 
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+/* font-family: 'Montserrat', sans-serif;
+ font-family: 'Roboto Slab', serif;
+ */
+.heder {
+
+}
+/*.heder__menu {*/
+	ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+}
+a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+}
+li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:15px; /*Добавляем отступ у пунктов меню*/
+}
